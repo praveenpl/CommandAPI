@@ -20,7 +20,8 @@ PATCH /api/commands/{Id}
 
 DELETE /api/commands/{Id}
 
-To secure the APIs,
+
+## To secure the APIs,
 1. uses Bearer Authentication
 2. uses Azure Active Directory
 3. Need to configure Active Directory in Azure and use a sample client to generate bearer token to be used to secure API
